@@ -94,3 +94,56 @@ a {
     max-height: 500px;
     overflow-y: scroll;
   }
+  .chat-messages .message {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #e4e7ff;
+    border-radius: 7px;
+    overflow-wrap: break-word;
+  }
+  
+  .chat-messages .message .meta {
+    font-size: 15px;
+    color: #f44336;
+    opacity: 0.7;
+    margin-bottom: 7px;
+  }
+  
+  .chat-messages .message .meta span {
+    color: #777;
+  }
+  
+  .chat-form-container {
+    padding: 20px 30px;
+    background-color: #717171;
+  }
+  
+  .chat-form-container form {
+    display: flex;
+  }
+  
+  .chat-form-container input[type="text"] {
+    font-size: 16px;
+    padding: 5px;
+    height: 40px;
+    flex: 1;
+  }
+  
+  /* Join Page */
+  .join-container {
+    max-width: 500px;
+    margin: 80px auto;
+    color: #fff;
+  }
+  
+  .join-header {
+    text-align: center;
+    padding: 20px;
+    background: #717171;
+  }
+  
+  .join-main {
+    padding: 30px 40px;
+    background: #5a5a5a;
+  }
+  
